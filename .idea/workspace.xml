@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0268f766-3dd7-4fa9-b83a-bcc65bd9a9f1" name="Changes" comment="">
+    <list default="true" id="0268f766-3dd7-4fa9-b83a-bcc65bd9a9f1" name="Changes" comment="Task_2_Full">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1770013430019</updated>
-      <workItem from="1770013431139" duration="6999000" />
+      <workItem from="1770013431139" duration="8134000" />
     </task>
     <task id="LOCAL-00001" summary="Task_1">
       <option name="closed" value="true" />
@@ -117,7 +118,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770020525831</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Task_2_Full">
+      <option name="closed" value="true" />
+      <created>1770054411870</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1770054411870</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +137,7 @@
     <MESSAGE value="Green socks" />
     <MESSAGE value="Blue socks" />
     <MESSAGE value="Task_1_Full" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task_1_Full" />
+    <MESSAGE value="Task_2_Full" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task_2_Full" />
   </component>
 </project>
