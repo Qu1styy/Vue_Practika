@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0268f766-3dd7-4fa9-b83a-bcc65bd9a9f1" name="Changes" comment="Task_1">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/vue.js" afterDir="false" />
-    </list>
+    <list default="true" id="0268f766-3dd7-4fa9-b83a-bcc65bd9a9f1" name="Changes" comment="Blue socks" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,7 +80,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1770013430019</updated>
-      <workItem from="1770013431139" duration="3459000" />
+      <workItem from="1770013431139" duration="3791000" />
     </task>
     <task id="LOCAL-00001" summary="Task_1">
       <option name="closed" value="true" />
@@ -94,7 +90,23 @@
       <option name="project" value="LOCAL" />
       <updated>1770018284670</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Green socks">
+      <option name="closed" value="true" />
+      <created>1770020012724</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1770020012724</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Blue socks">
+      <option name="closed" value="true" />
+      <created>1770020192051</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1770020192051</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +114,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Task_1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task_1" />
+    <MESSAGE value="Green socks" />
+    <MESSAGE value="Blue socks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Blue socks" />
   </component>
 </project>
