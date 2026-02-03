@@ -116,5 +116,4 @@ let app = new Vue({
             }
         }
     }
-
 })
