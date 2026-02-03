@@ -5,6 +5,10 @@ let app = new Vue({
             this.cart += 1
         },
 
+        moveToCart() {
+            this.cart -= 1
+        },
+
         updateProduct(variantImage) {
             this.image = variantImage
         }
