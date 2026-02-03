@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0268f766-3dd7-4fa9-b83a-bcc65bd9a9f1" name="Changes" comment="8 lesson">
+    <list default="true" id="0268f766-3dd7-4fa9-b83a-bcc65bd9a9f1" name="Changes" comment="task_9_full">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
@@ -84,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1770013430019</updated>
-      <workItem from="1770013431139" duration="16900000" />
+      <workItem from="1770013431139" duration="31059000" />
     </task>
     <task id="LOCAL-00001" summary="Task_1">
       <option name="closed" value="true" />
@@ -206,7 +206,47 @@
       <option name="project" value="LOCAL" />
       <updated>1770090996148</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="task_7_full">
+      <option name="closed" value="true" />
+      <created>1770091751132</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1770091751132</updated>
+    </task>
+    <task id="LOCAL-00017" summary="task_8_full">
+      <option name="closed" value="true" />
+      <created>1770117002144</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1770117002144</updated>
+    </task>
+    <task id="LOCAL-00018" summary="10 lesson">
+      <option name="closed" value="true" />
+      <created>1770119783581</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1770119783581</updated>
+    </task>
+    <task id="LOCAL-00019" summary="task_9_full">
+      <option name="closed" value="true" />
+      <created>1770122093758</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1770122093758</updated>
+    </task>
+    <task id="LOCAL-00020" summary="task_9_full">
+      <option name="closed" value="true" />
+      <created>1770122204754</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1770122204754</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,6 +267,10 @@
     <MESSAGE value="7 lesson" />
     <MESSAGE value="task_6_full" />
     <MESSAGE value="8 lesson" />
-    <option name="LAST_COMMIT_MESSAGE" value="8 lesson" />
+    <MESSAGE value="task_7_full" />
+    <MESSAGE value="task_8_full" />
+    <MESSAGE value="10 lesson" />
+    <MESSAGE value="task_9_full" />
+    <option name="LAST_COMMIT_MESSAGE" value="task_9_full" />
   </component>
 </project>
