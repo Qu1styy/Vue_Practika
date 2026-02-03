@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0268f766-3dd7-4fa9-b83a-bcc65bd9a9f1" name="Changes" comment="6 lesson">
+    <list default="true" id="0268f766-3dd7-4fa9-b83a-bcc65bd9a9f1" name="Changes" comment="task_5_full">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
@@ -83,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1770013430019</updated>
-      <workItem from="1770013431139" duration="11860000" />
+      <workItem from="1770013431139" duration="12868000" />
     </task>
     <task id="LOCAL-00001" summary="Task_1">
       <option name="closed" value="true" />
@@ -173,7 +174,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770086304499</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="task_5_full">
+      <option name="closed" value="true" />
+      <created>1770086664732</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1770086664732</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +199,7 @@
     <MESSAGE value="4_lesson" />
     <MESSAGE value="task_4-full" />
     <MESSAGE value="6 lesson" />
-    <option name="LAST_COMMIT_MESSAGE" value="6 lesson" />
+    <MESSAGE value="task_5_full" />
+    <option name="LAST_COMMIT_MESSAGE" value="task_5_full" />
   </component>
 </project>

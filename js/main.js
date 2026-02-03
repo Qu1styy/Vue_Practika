@@ -1,21 +1,6 @@
 let app = new Vue({
     el: '#app',
-    methods: {
-        addToCart() {
-            this.cart += 1
-        },
-
-        moveToCart() {
-            this.cart -= 1
-        },
-
-        updateProduct(variantImage) {
-            this.image = variantImage
-        }
-    },
-
     data: {
-
         product: "Socks",
         image: "./assets/vmSocks-green-onWhite.jpg",
         altText: "A pair of socks",
@@ -33,7 +18,14 @@ let app = new Vue({
                 variantImage: "./assets/vmSocks-blue-onWhite.jpg",
             }
         ],
-        cart: 0,
-
+        cart: 0
+    },
+    methods: {
+        addToCart() {
+            this.cart += 1
+        },
+        updateProduct(variantImage) {
+            this.image = variantImage
+        }
     }
 })
