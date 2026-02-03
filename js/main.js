@@ -1,12 +1,21 @@
 let eventBus = new Vue()
+
 Vue.component('product-tabs', {
     props: {
         reviews: {
             type: Array,
             required: false
+        },
+        shipping: {
+            required: false
+        },
+        details: {
+            type: Array,
+            required: false
         }
     },
     template: `
+<div>
   <div>   
     <ul>
       <span class="tab"
@@ -31,12 +40,23 @@ Vue.component('product-tabs', {
       <product-review></product-review>
     </div>
   </div>
+  
+      <div v-show="selectedTab === 'Shipping'">
+      <p>Shipping: {{ shipping }}</p>
+    </div>
+    
+    <div v-show="selectedTab === 'Details'">
+      <ul>
+        <li v-for="detail in details">{{ detail }}</li>
+      </ul>
+    </div>
+    </div>
 \`,
 
  `,
     data() {
         return {
-            tabs: ['Reviews', 'Make a Review'],
+            tabs: ['Reviews', 'Make a Review', 'Shipping', 'Details'],
             selectedTab: 'Reviews'  // устанавливается с помощью @click
         }
     }
@@ -150,7 +170,11 @@ Vue.component('product', {
        </div>           
        
        <div>
-       <product-tabs :reviews="reviews"></product-tabs>
+       <product-tabs
+  :reviews="reviews"
+  :shipping="shipping"
+  :details="details"
+></product-tabs>
        </div>
  `,
     data() {
