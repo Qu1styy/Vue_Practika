@@ -147,6 +147,7 @@ Vue.component('product', {
        <div class="product-info">
            <h1>{{ title }}</h1>
            <p>{{ salesMassage }}</p>
+           <p>{{ sredRating }}</p>
            <p v-if="inStock">In stock</p>
            <p v-else>Out of Stock</p>
            <ul>
@@ -236,6 +237,19 @@ Vue.component('product', {
             }
             return 'Sales: ' + this.sales
         },
+        sredRating() {
+            if (this.reviews.length === 0) {
+                return 'Рейтинга пока нет'
+            }
+
+            let sum = 0
+
+            for (let i = 0; i < this.reviews.length; i++) {
+                sum += Number(this.reviews[i].rating)
+            }
+
+            return 'Рейтинг: ' + (sum / this.reviews.length) + ' / 5'
+        }
     },
     mounted() {
         eventBus.$on('review-submitted', productReview => {
