@@ -146,6 +146,7 @@ Vue.component('product', {
 
        <div class="product-info">
            <h1>{{ title }}</h1>
+           <p>{{ salesMassage }}</p>
            <p v-if="inStock">In stock</p>
            <p v-else>Out of Stock</p>
            <ul>
@@ -198,12 +199,14 @@ Vue.component('product', {
                     variantQuantity: 0
                 }
             ],
-            reviews: []
+            reviews: [],
+            sales: 0
         }
     },
     methods: {
         addToCart() {
             this.$emit('add-to-cart', this.variants[this.selectedVariant].variantId);
+            this.sales++;
         },
         updateProduct(index) {
             this.selectedVariant = index;
@@ -226,7 +229,13 @@ Vue.component('product', {
             } else {
                 return 2.99
             }
-        }
+        },
+        salesMassage() {
+            if (this.sales === 0) {
+                return 'There are no sales yet'
+            }
+            return 'Sales: ' + this.sales
+        },
     },
     mounted() {
         eventBus.$on('review-submitted', productReview => {
